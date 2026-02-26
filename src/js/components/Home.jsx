@@ -7,13 +7,12 @@ import { Contador, EntradaTarea, ListaTareas, Titulo } from "./index.js";
 
 // PROBLEMAS DE CONSOLA SOLUCIONADOS
 
-const apiURL ='https://playground.4geeks.com/todo/todos/alesanchezr';
-
 /**
  * Componente Principal: Home
  * Autor: Ignacio Pinto
  * Descripción: Componente contenedor que maneja la lógica y el estado.
  */
+
 const Home = () => {
     // Estado para almacenar la lista de tareas
     const [tareas, setTareas] = useState([]);
